@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+label{
+    margin-right: 40px;
+}
+.container {
+    color: #fff;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color:rgb(22, 19, 19);
+}
+
+.timer-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(109, 106, 106);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.timer-input label {
+    margin-right: 5px;
+}
+
+.timer-input input {
+    width: 40px;
+    text-align: center;
+}
+
+#active-timers {
+    display: flex;
+    flex-direction: column;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.timer span {
+    font-size: 18px;
+}
+
+.timer button {
+    background-color: #d2c80c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+input{
+    border: none;
+    background-color: rgb(82, 79, 79);
+    color: #fff;
+}
+button{
+  float: right;
+  margin-left: 40px;
+  background-color: #d2c80c;
+  border-radius: 20px;
+  padding: 10px;
+  width: 80px;
+}
+.dan{
+    border: solid 1px ;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(92, 89, 89);
+    margin: 110px;
+    width: 200px;
+}
+.text{
+    margin: 20px;
+}
